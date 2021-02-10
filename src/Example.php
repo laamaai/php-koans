@@ -2,15 +2,13 @@
 
 namespace koans;
 
-class Example
-{
-    function declareAnInt(): int
-    {
+class Example{
+
+    function declareAnInt(): int{
         return "1";
     }
 
-    function addTwoIntegers(int $number1, int $number2): int
-    {
+    function addTwoIntegers(int $number1, int $number2): int{
         return 0;
     }
 }
